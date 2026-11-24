@@ -9,3 +9,15 @@ Use Python 3.10+ with Tkinter. Install the PDF library with `python -m pip insta
 ## Try it
 
 Add a cover document followed by a report. For the report, choose **Edit pages** and enter `4, 1-3`. The output contains the cover followed by report pages 4, 1, 2 and 3. Repeated pages are permitted. Encrypted PDFs require an unlocked input copy. This tool assembles pages; document-level bookmarks, interactive form behavior and digital signatures are outside its scope.
+
+## Limitations
+
+Inputs must be unlocked PDFs. Page assembly does not preserve document-level signatures.
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and test commands, and the [changelog](CHANGELOG.md) for project history.
+
+## License
+
+[MIT License](LICENSE). Copyright (c) 2026 pdf-packet-desk contributors.
